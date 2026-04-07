@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+/* Define your custom theme variables here for v4 */
+@theme {
+  --color-gym-neon: #CCFF00;
+  --color-gym-dark: #121212;
+}
+
+body {
+  background-color: var(--color-gym-dark);
+  color: white;
+  margin: 0;
+  font-family: sans-serif;
+}
